@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator-Tip</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale= 1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="left">
+                <div class="billerror">
+                    <p id="billtext">Bill</p>
+                    <p id="errorbill">Don't leave it blank</p>
+                </div>
+                <input id="bill" type="number" placeholder="$                                  0">
+                <p class="select">Select Tip %</p>
+                <div class="btns1">
+                    <button class="btn" id="per">5%</button>
+                    <button class="btn" id="10%">10%</button>
+                    <button class="btn" id="15%">15%</button>
+                </div>
+                <div class="btns2">
+                    <button class="btn" id="25%">25%</button>
+                    <button class="btn" id="50%">50%</button>
+                    <input id="custom" placeholder="Custom " type="number">
+                </div>
+                <div class="numPeoples">
+                    <p class="np">Number of People</p>
+                    <p id="errorpeople">Can't be zero</p>
+                </div>
+                <input id="numPeople" placeholder="0" type="number">
+                <button id="calculate">Calculate</button>
+            </div>
+            <div class="right">
+                <div class="tip-amount">
+                    <p class="text">Tip amount</p>
+                    <h1 id="tipAmount">$0.00</h1>
+                </div>
+                <div class="total">
+                    <p class="text">Total</p>
+                    <h1 id="total">$0.00</h1>
+                </div>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
