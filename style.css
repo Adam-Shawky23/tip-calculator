@@ -1,0 +1,162 @@
+body{
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+}
+.main{
+    background-color: white;
+    margin:100px auto;
+    display: flex;
+    padding: 25px;
+    border-radius: 15px;
+    width:60%;
+}
+button{
+    font-family: 'Space Mono', monospace;
+}
+input{
+    font-family: 'Space Mono', monospace;
+}
+.left{
+    width:50%;
+}
+.right{
+    background-color:hsl(183, 100%, 15%);
+    width:50%;
+    border-radius: 15px;
+    padding:30px;
+    color:white;
+}
+.btns1{
+    display: flex;
+}
+.btns2{
+    display: flex;
+}
+#bill{
+    margin-top: 0px;
+    height:30px;
+    border-radius: 5px;
+    width:83%;
+    background-color: hsl(189, 41%, 97%);
+    border:2px solid hsl(183, 100%, 15%);
+    text-align: right;
+}
+#billtext{
+    margin-bottom: 10px;
+    margin: 0px;
+    margin-top: 16px;
+}
+.select{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.btn{
+    background-color: hsl(172, 67%, 45%);
+    color:black;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width:100px;
+    height:30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#custom{
+    background-color: hsl(189, 41%, 97%);
+    border:2px solid hsl(183, 100%, 15%);
+    width:90px;
+    height:25px;
+    border-radius: 5px;
+    text-align: right;
+}
+#numPeople{
+    margin-top: 0px;
+    height:30px;
+    border-radius: 5px;
+    width:83%;
+    background-color: hsl(189, 41%, 97%);
+    border:2px solid hsl(183, 100%, 15%);
+    text-align: right;
+}
+.np{
+    margin-bottom: 10px;
+}
+#calculate{
+    width:85%;
+    background-color: hsl(172, 67%, 45%);
+    color:black;
+    border-radius: 5px;
+    height:30px;
+    border: none;
+    margin-top: 30px;
+}
+.tip-amount{
+    display: flex;
+    justify-content: space-between;
+}
+#tipAmount{
+    color:hsl(172, 67%, 45%);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.total{
+    display: flex;
+    justify-content: space-between; 
+    vertical-align: baseline;
+}
+#total{
+    color:hsl(172, 67%, 45%);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.text{
+    font-size:20px;
+    
+}
+#reset{
+    width:78%;
+    background-color: hsl(172, 67%, 45%);
+    color:black;
+    border-radius: 5px;
+    height:30px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+#errorpeople{
+    color:red;
+    margin-right: 70px;
+    display: none;
+}
+.numPeoples{
+    display: flex;
+    justify-content: space-between;
+}
+.billerror{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: baseline;
+}
+#errorbill{
+    color: red;
+    margin-right: 60px;
+    display: none;
+}
+@media only screen and (max-width:500px){
+    .main{
+        width:100%;
+        margin-top: 250px;
+    }
+    #custom{
+        width:50px;
+    }
+}
+@media only screen and (max-width:370px){
+    .main{
+        width:100%;
+        margin-top: 250px;
+    }
+    #custom{
+        width:30px;
+    }
+}
